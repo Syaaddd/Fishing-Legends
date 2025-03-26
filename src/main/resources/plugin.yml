@@ -1,0 +1,12 @@
+name: fishinglegend
+version: '1.0'
+main: core.sg.fishinglegend.Fishinglegend
+api-version: '1.20'
+depend: [Vault, PlaceholderAPI, WorldGuard]
+commands:
+  fishshop:
+    description: Open the fishing shop
+    usage: /fishshop
+  boat:
+    description: Spawn a boat
+    usage: /boat [remove]
